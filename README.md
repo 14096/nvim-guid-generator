@@ -6,7 +6,7 @@ A simple plugin to generate and insert GUIDs into Neovim buffer.
 
 Install with your preferred package manager
 
-`srpmtt/nvim-guid-generator`
+`14096/nvim-guid-generator`
 
 ## Usage
 
