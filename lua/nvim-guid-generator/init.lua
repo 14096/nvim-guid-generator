@@ -1,5 +1,8 @@
 local M = {}
 
+-- Seed the random generator using high-resolution time on module load
+math.randomseed(os.time() + (vim.uv and vim.uv.hrtime() or vim.loop.hrtime()))
+
 function M.generate_guid(format)
   local rand = math.random
   local template ='xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'
